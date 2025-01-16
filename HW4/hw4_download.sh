@@ -1,0 +1,1 @@
+gdown 1TXFtBVoV33a-fjHixvSDVv9sJrbV0yd4 -O gaussian-splatting/output/3d_gaussian_r1_psnr36_ssim97.ply
