@@ -1,0 +1,12 @@
+#Ignore the dataset
+#IMPORTANT: make sure that your dataset is stored in a folder with the same as the one specified below
+
+__pycache__/*
+hw1_data/*
+p1_results/*
+p1_results_2/*
+p2_results/*
+*png
+*jpg
+*csv
+*pth

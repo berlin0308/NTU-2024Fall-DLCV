@@ -1,0 +1,20 @@
+#Ignore the dataset
+#IMPORTANT: make sure that your dataset is stored in a folder with the same as the one specified below
+
+__pycache__/*
+
+hw3_data/*
+
+p2/adapter/*
+p2/adapter_2/*
+p2/__pycache__/*
+p2/encoder_fc2_proj/*
+p2/lora/*
+p2/only_proj/*
+
+# p2_legacy/*
+p2_outputs/*
+p3_outputs/*
+
+module_ep3_94_73.pt
+

@@ -1,0 +1,10 @@
+*.pyc
+gt/*
+hw4_data/*
+output7/*
+Depth-Anything-V2/*
+depth_map/*
+3d_gaussian_points/*
+gaussian-splatting/output/point_cloud/*
+gaussian-splatting/output/5cf54797-3/*
+gaussian-splatting/submodules/*

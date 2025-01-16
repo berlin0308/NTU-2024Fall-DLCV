@@ -1,0 +1,24 @@
+#Ignore the dataset
+#IMPORTANT: make sure that your dataset is stored in a folder with the same as the one specified below
+
+
+*png
+*jpg
+*.pyc
+*.pyo
+*.bin
+*.pth
+
+clip/*
+output/*
+hw2_data/*
+# ldm/*
+logs/*
+stable_diffusion/*
+output_v1_eta0.0/*
+output_v1_eta0.25/*
+output_v1_eta0.5/*
+output_v1_eta0.75/*
+output_v1_eta1.0/*
+taming/*
+
