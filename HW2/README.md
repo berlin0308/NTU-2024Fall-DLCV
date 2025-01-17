@@ -1,15 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/3NjwmDJu)
-# DLCV-Fall-2024-HW2
-Please click [this link](https://docs.google.com/presentation/d/1nWH_CmF6iba0kQmi0TV_yI2Emu1EvjrX/edit?usp=sharing&ouid=107585355306558125830&rtpof=true&sd=true) to view the slides of HW2
-
-## Deadline
-
-**2024/10/29 (Tue.) 23:59 (GMT+8)**
-
-## Packages
-
-This homework should be completed using Python 3.8.5. For a list of packages you are allowed to import in this assignment, please refer to the `stable-diffusion/environment.yaml` for more details.
-
 ### Installation
 
 You can run the following commands to install all the packages listed in the `environment.yaml`:
@@ -50,11 +38,7 @@ pip install -e .
 
 > :warning: **Important**: You can **NOT** use **diffuser** for easy implementation!
 
-## Hint
-
-Your model is a DDPM, located in stable-diffusion/ldm/models/diffusion/ddpm.py. You may need to use model.cond_stage_model for the text encoder. Since Diffusion v1.4 is a latent diffusion model that operates in the latent space, functions such as model.encode_first_stage and model.get_first_stage_encoding may also be necessary. Additionally, model.q_sample could be useful for your process.
-
-## Grading
+## Evaluation
 We provide the code for evaluation of hw2_3
     
     python evaluation/grade_hw2_3.py --json_path hw2_data/textual_inversion/input.json --input_dir hw2_data/textual_inversion --output_dir output_folder_example 
@@ -87,13 +71,3 @@ The directory structure is organized as follows:
 - **Second Level**: Indices of prompts.
 
 In the private set, we will replace the `prompt` and `prompt_4_clip_eval` in `input.json`.
-
-## Q&A
-
-If you have any problems related to HW2, you may:
-
-- **Use TA Hours**: Thu. 14:20~15:10 in MK514.
-- **Contact TAs by Email**: [ntudlcv@gmail.com](mailto:ntudlcv@gmail.com) with the title `[DLCV hw2] Problems about ...`
-- **Post Your Question**: Under the HW2 discussion section in NTU COOL.
-
-Feel free to reach out if you have any questions or need further assistance!
